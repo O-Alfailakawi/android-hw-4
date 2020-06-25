@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fee5eab30a698c169dc4fd5752359c2c"
+    android:foregroundTint="#2D2F31"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/grade_calculator"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/grade"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="-30dp"
+        android:text="@string/quizzes"
+        android:textColor="#020202"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/QuizzesET"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="12dp"
+        android:autofillHints=""
+        android:background="#1EE408"
+        android:backgroundTint="#75E4E2"
+        android:ems="10"
+        android:hint="@string/_15"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/QuizzesET"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-20dp"
+        android:text="@string/homework"
+        android:textColor="#020202"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/HomeWorkET"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="12dp"
+        android:autofillHints=""
+        android:background="#1EE408"
+        android:backgroundTint="#75E4E2"
+        android:ems="10"
+        android:hint="@string/_25"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/HomeWorkET"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-20dp"
+        android:text="@string/mid_terms"
+        android:textColor="#020202"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/MidTermsET"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="12dp"
+        android:autofillHints=""
+        android:background="#1EE408"
+        android:backgroundTint="#75E4E2"
+        android:ems="10"
+        android:hint="@string/_30"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/MidTermsET"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-20dp"
+        android:text="@string/finalText"
+        android:textColor="#020202"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/FinalET"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="12dp"
+        android:autofillHints=""
+        android:background="#1EE408"
+        android:backgroundTint="#75E4E2"
+        android:ems="10"
+        android:hint="@string/_30"
+        android:inputType="number"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/Calculate"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/FinalET"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="66dp"
+        android:text="@string/calculate" />
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Calculate"
+        android:layout_marginStart="80dp"
+        android:text="@string/reset" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:layout_alignTop="@+id/Calculate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/student_hi" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="198dp"
+        android:background="#1BB9E4"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/your_grade_is"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

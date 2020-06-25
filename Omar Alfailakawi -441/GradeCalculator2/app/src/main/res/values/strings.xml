@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Grade Calculator</string>
+    <string name="TextView">Enter The Following:</string>
+    <string name="grade_calculator">Grade Calculator</string>
+    <string name="quizes">Quizes</string>
+    <string name="quizes_15">Quizes 15%</string>
+    <string name="homework_25">HomeWork 25%</string>
+    <string name="mid_terms_30">Mid-Terms 30%</string>
+    <string name="final_30">Final 30%</string>
+    <string name="todo">TODO</string>
+    <string name="calculate">Calculate</string>
+    <string name="quizesText">Quizes:</string>
+    <string name="homework">Homework:</string>
+    <string name="mid_terms">Mid-Terms:</string>
+    <string name="finals">Final:</string>
+    <string name="finalText">Final:</string>
+    <string name="_15">15%</string>
+    <string name="_25">25%</string>
+    <string name="_30">30%</string>
+    <string name="_30_2">30%</string>
+    <string name="todo2">TODO</string>
+    <string name="reset">Reset</string>
+    <string name="todo3">TODO</string>
+    <string name="your_grade_is2">Your Grade is:</string>
+    <string name="textview">TextView</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="result">Result:</string>
+    <string name="your_grade_is">Your Grade is:</string>
+</resources>
